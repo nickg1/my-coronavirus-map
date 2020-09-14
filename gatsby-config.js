@@ -12,6 +12,7 @@ const siteMetadata = {
 };
 
 module.exports = {
+  pathPrefix:"/my-coronavirus-map",
   siteMetadata,
   plugins: [
     'gatsby-plugin-resolve-src',
