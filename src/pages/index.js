@@ -48,7 +48,7 @@ const IndexPage = () => {
       },
       secondary: {
         label: 'Per 1 Million',
-        value: (stats?.deathsPerOneMillion)
+        value: stats?.deathsPerOneMillion
       }
     }, {
       primary: {
@@ -58,7 +58,7 @@ const IndexPage = () => {
       },
       secondary: {
         label: 'Per 1 Million',
-        value: (stats?.testsPerOneMillion)
+        value: stats?.testsPerOneMillion
       }
       
     },
